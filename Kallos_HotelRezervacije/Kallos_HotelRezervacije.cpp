@@ -88,8 +88,7 @@ public:
         int soba;
 
         cout << "\nIme gosta: ";
-        cin.ignore();
-        getline(cin, ime);
+        cin >> ime;
         cout << "Datum dolaska (DD.MM.YYYY): ";
         cin >> dolazak;
         cout << "Datum odlaska (DD.MM.YYYY): ";
